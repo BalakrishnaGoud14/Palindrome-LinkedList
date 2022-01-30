@@ -53,7 +53,7 @@ def takeInput() :
     head = None
     tail = None
 
-    datas = list(map(int, stdin.readline().rstrip().split(" ")))
+    datas = [int(i) for i in input().split()]
 
     i = 0
     while (i < len(datas)) and (datas[i] != -1) :
@@ -85,7 +85,7 @@ def printLinkedList(head) :
 
 
 #main
-t = int(stdin.readline().rstrip())
+t = int(input())
 
 while t > 0 :
     
