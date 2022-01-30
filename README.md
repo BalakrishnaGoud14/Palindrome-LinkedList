@@ -14,11 +14,14 @@ For each test case, the only line of output that print 'true' if the list is Pal
 Time Limit: 1sec
 
 Where 'M' is the size of the singly linked list.
+
+
 Sample Input 1 :
 1
 9 2 3 3 2 9 -1
 Sample Output 1 :
 true
+
 Sample Input 2 :
 2
 0 2 3 2 5 -1
@@ -26,6 +29,7 @@ Sample Input 2 :
 Sample Output 2 :
 false
 true
+
 Explanation for the Sample Input 2 :
 For the first query, it is pretty intuitive that the the given list is not a palindrome, hence the output is 'false'.
 
